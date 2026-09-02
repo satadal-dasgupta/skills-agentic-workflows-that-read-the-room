@@ -11,6 +11,8 @@ safe-outputs:
     title-prefix: "[mona] "
     draft: true
     fallback-as-issue: false
+env:
+  GH_AW_SKIP_REFLECT: "true"
 tools:
   edit:
   web-fetch:
